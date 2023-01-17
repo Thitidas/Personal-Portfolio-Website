@@ -27,40 +27,34 @@ body {
   border-radius: 50%;
 }
 
-.home {
-  display: flex;
-  justify-content: space-around;
-  padding: 100px;
-}
-
-a:hover {
-  color: red;
- 
-.home {
-  float: center;
-  width: 100%;
-  padding: 15px;
-  color: black;
-  font-style: fantasy;
-  border-style: inset;
-  background-color: pink;
-  border-color: black;
-}
-
 * {
   box-sizing: border-box;
 }
 
 .popup:hover{
-  width: 300px;
-  height: 400px;
+  width: 400px;
+  height: 500px;
 }
 
 .popup {
-  height: 300px;
-  width: 200px;
+  height: 400px;
+  width: 300px;
    border-style: dotted;
    border-color: hotpink;
+   border-width: 4px;
+   padding: 20px;
+}
+
+.popup2:hover{
+  width: 500;
+  height: 400;
+}
+
+.popup2 {
+  height: 500;
+  width: 600;
+   border-style: solid;
+   border-color: white;
    border-width: 4px;
    padding: 20px;
 }
