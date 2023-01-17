@@ -51,3 +51,16 @@ a:hover {
   box-sizing: border-box;
 }
 
+.popup:hover{
+  width: 300px;
+  height: 400px;
+}
+
+.popup {
+  height: 300px;
+  width: 200px;
+   border-style: dotted;
+   border-color: hotpink;
+   border-width: 4px;
+   padding: 20px;
+}
